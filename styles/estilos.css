@@ -51,7 +51,7 @@ body {
 
 .logo img{
     height: 60px;
-    margin-top: 6.8rem;
+    margin-top: 0.5rem;
     align-items: center;
     margin-left: 0.1rem;
     padding: 0px;
@@ -241,8 +241,8 @@ section {
 }
 
 .inicio-imghover:hover {
-    background-color: var(--bg-color);
-    opacity: .8;
+    background-color: transparent;
+    opacity: .0;
 }
 
 .about {
@@ -259,6 +259,7 @@ section {
     font-size: 5rem;
     margin-bottom: 3rem;
     text-align: center;
+    
 }
 
 span {
@@ -333,7 +334,7 @@ span {
 }
 
 .educacion-row .educacion-column {
-    flex: 1 1 40rem;
+    
 }
 
 .educacion-column .title {
