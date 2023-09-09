@@ -13,7 +13,7 @@
 }
 :root {
     --bg-color: #1C5E7B;
-    --second-bg-color: #008195;
+    --second-bg-color: #FBFAF0;
     --text-color: #DEEEEB;
     --main-color: #49C692;
 }
@@ -298,6 +298,7 @@ span {
 
 .about-content {
     text-align: center;
+    color: #494738;
 }
 
 .about-content h3 {
