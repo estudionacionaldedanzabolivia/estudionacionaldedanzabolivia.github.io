@@ -282,6 +282,7 @@ section {
     margin-bottom: 3rem;
     text-align: center;
     
+    
 }
 
 span {
@@ -383,9 +384,11 @@ h2 span{
 
 .educacion-column .title {
     font-size: 2rem;
-    margin: 1.5rem 0 1rem 3rem;
+    margin: 1.5rem 0 1rem 2.5rem;
     color: #49C692;
     padding-bottom: 0px;
+    width: 65%;
+    height: auto;
  }   
 
 .educacion-column .educacion-box {
@@ -526,7 +529,9 @@ footer p{
 footer h2{
     text-align: center;
     background-color: black;
+    
 }
+
 .centro {
     width: 50%;
     margin-left: auto;
@@ -550,6 +555,7 @@ video {
     margin: auto;
     display: block;
     
+    
 }
 .medio{
     padding-top: 0px;
@@ -558,6 +564,7 @@ video {
     display: block;
     border-radius: 10px ;
     box-shadow: -5px 5px 5px black;
+    
 }
 audio{
     padding-top: 5px;
