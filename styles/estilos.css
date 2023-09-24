@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2? family= Alex+Brush & family= Poppins:wght@200;300;400;500;600;700;800 & display=swap' );
 
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -17,7 +19,7 @@
 }
 :root {
     --bg-color: #ffffff;
-    --second-bg-color: #FBFAF0;
+    --second-bg-color: #ffffff;
     --text-color: #DEEEEB;
     --main-color: #49C692;
 }
@@ -90,7 +92,7 @@ body {
 
 section {
     min-height: 100vh;
-    padding: 10rem 9% 2rem;
+    padding: 5rem 9% 2rem;
 }
 
 .inicio{
@@ -287,12 +289,17 @@ section {
 
 span {
     color: var(--main-color);
+    font-family:"Verdana", sans-serif;
+    
     
 }
 
-h2 span{
+.about h2 span{
+    color: #2b2c0a;
+    box-shadow: 2px 3px 5px 2px 1px #54573d;
     
-
+    
+    
 }
 .about-img {
     position: relative;
@@ -323,28 +330,44 @@ h2 span{
     width: 90%;
     height: 120%;
     border-radius: 50%;
-    border-top: .2rem solid var(--second-bg-color);
-    border-bottom: .2rem solid var(--second-bg-color);
-    border-left: .2rem solid var(--main-color);
-    border-right: .2rem solid var(--main-color);
+    border-top: .4rem solid #4a4a2d;
+    border-bottom: .4rem solid #4a4a2d;
+    border-left: .4rem solid #7A7B1B;
+    border-right: .4rem solid #7A7B1B;
 }
 
+.about .about-content h3{
+    padding-top: 0px;
+}
 .about-content {
     text-align: center;
-    color: #39230B;
-}
-
-.about-content h3 {
-    font-size: 2.5rem;
+    color: #384B41;
     
 }
 
+.about-content h3 {
+    font-size: 2.2rem;
+    text-shadow: 1px 1px 1px #a5a97e;
+    padding-top: 0%;
+    margin-top: 0%;
+    box-shadow: 2px 2px 2px 2px #B1B050;
+    
+}
+.about-content h4 {
+    font-size: 1.5rem;
+    
+    padding-top: 0%;
+    margin-top: 0%;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    
+    
+}
 .about-content p {
     font-size: 1.5rem;
-    margin: 2rem 0 3rem;
+    margin: .5rem 0 1.5rem;
 }
 .about .heading{
-    color: #39230B;
+    color: #2E382A;
 }
 
 .btn-box.btns{
@@ -362,8 +385,10 @@ h2 span{
     align-items: center;
     flex-direction: column;
     min-height: auto;
-    padding: 5rem;
-    color: #39230B;
+    padding-top: 0rem;
+    color: #384B41;
+    margin-top: 0%;
+    
 }
 .educacion-column{
     
@@ -383,12 +408,15 @@ h2 span{
 }
 
 .educacion-column .title {
-    font-size: 2rem;
-    margin: 1.5rem 0 1rem 2.5rem;
-    color: #49C692;
+    font-size:2.5rem;
+    margin: 1.5rem 0 0rem 2.5rem;
+    color: #ffffff;
     padding-bottom: 0px;
-    width: 65%;
+    width: 100%;
     height: auto;
+    background-color: #09AD97;
+    border-radius: 5px;
+    text-align: center;
  }   
 
 .educacion-column .educacion-box {
@@ -406,9 +434,12 @@ h2 span{
 }
 
 .about .about-content .year {
-    font-size: 2rem;
-    color: var(--main-color);
-    padding: .5rem;
+    font-size: 1.5rem;
+    padding: .4rem;
+    font-family: "Verdana", sans-serif;
+    color: #33472C;
+    
+    
 }
 
 .educacion-content .content .year i{
@@ -417,6 +448,7 @@ h2 span{
 
 .educacion-content .content h3 {
     font-size: 2rem;
+    padding-top: 2rem;
 }
 
 .educacion-content .content p {
@@ -468,13 +500,14 @@ button {
     
     background: url("/images/fondofinal.png") no-repeat;
     background-color: black;
-    
+    background-size:auto;
+    background-position: center;
 }  
 
 .skills p {
     font-size: 1.5rem;
     padding-top: .3rem;
-    padding-right: 22px;
+    padding-right:22px;
     padding-left: 22px;
     width: 80%;
     text-shadow: 1px 1px  black;
@@ -482,11 +515,24 @@ button {
 
 .skills .skills-content p {
     font-size: 1.5rem;
-    padding-top: .3rem;
+    padding-top: .5rem;
     
 }
-.skills .title {
+.skills .titles {
     padding-top: .8rem;
+    box-shadow: 2px 2px 2px 2px #9BB0A5;
+    text-align:justify;
+    width: 76%;
+    height: auto;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #49C692;
+    text-shadow: 2px 2px 2px #121413;
+    display: flex;
+    margin: 1.5rem 0 0rem 1rem;
+    padding-bottom: 0px;
+    border-radius: 5px;
+    
 }
 
 footer{
@@ -526,9 +572,10 @@ footer p{
     text-align: center;
     background-color: black;
 }
-footer h2{
+footer h5{
     text-align: center;
     background-color: black;
+    padding-right: 50px;
     
 }
 
@@ -543,6 +590,7 @@ footer h2{
 }
 img{
     transition: all 0.5s linear;
+    border-radius: 5px 5px;
 }
 
 img:hover{
@@ -564,6 +612,7 @@ video {
     display: block;
     border-radius: 10px ;
     box-shadow: -5px 5px 5px black;
+    
     
 }
 audio{
