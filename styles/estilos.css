@@ -91,7 +91,7 @@ body {
 }
 
 section {
-    min-height: 118vh;
+    min-height: 116vh;
     padding: 5rem 9% 2rem;
 }
 
@@ -213,7 +213,7 @@ section {
 
 .inicio-social{
     position: absolute;
-    bottom: -10rem;
+    bottom: -12rem;
     width: 170px;
     display: flex;
     justify-content: space-between;
