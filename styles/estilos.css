@@ -550,11 +550,9 @@ button {
 }
 
 footer{
-box-shadow:-4px 2px 3px 4px #49c67f;
-height: 3.5rem;
+border-style: solid;
 
 border-radius: 10px;
-
 padding-bottom:1rem;
 padding-top: 1rem;
 text-align: center center;
@@ -564,7 +562,6 @@ font-size:small;
 grid-template-columns: auto auto;
 margin: auto;
 display: block;
-
 }
 
 footer img{
@@ -610,8 +607,8 @@ footer h5 span{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    padding-top: 10px;
-    border-radius: 10px;
+    
+    border-radius: 15px;
     
 
 }
