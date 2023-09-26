@@ -213,7 +213,7 @@ section {
 
 .inicio-social{
     position: absolute;
-    bottom: -12rem;
+    bottom: -11.5rem;
     width: 170px;
     display: flex;
     justify-content: space-between;
@@ -584,14 +584,15 @@ footer img{
 
 footer p{
     text-align: center;
-    background-color: black;
+    
 }
 footer h5{
     text-align: center;
-    background-color: black;
+    color: #DEEEEB;
+    box-shadow:#7A7B1B;
     padding-right: 50px;
     padding-left: 10px;
-    text-shadow: 1px 1px 1px  #887e2c;
+    text-shadow: 1px 1px 1px black;
 
     
     
@@ -633,7 +634,7 @@ video {
     margin: auto;
     display: block;
     border-radius: 10px ;
-    box-shadow: -5px 5px 5px black;
+    box-shadow: -5px 5px 5px 2px #7A7B1B;
     
     
     
