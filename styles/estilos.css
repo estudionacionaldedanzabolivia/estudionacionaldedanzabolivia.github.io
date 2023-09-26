@@ -294,7 +294,7 @@ section {
 }
 
 span {
-    color: var(--main-color);
+    color:var(--main-color);
     font-family:"Verdana", sans-serif;
     
     
@@ -550,8 +550,9 @@ button {
 }
 
 footer{
-background-color: black;
-border-style:solid;
+box-shadow:-4px 2px 3px 4px #49c67f;
+height: 3.5rem;
+
 border-radius: 10px;
 
 padding-bottom:1rem;
@@ -577,7 +578,7 @@ footer img{
     align-items: center;
     
     grid-template-columns: auto auto;
-    background-color: black;
+    
     
     
 }
@@ -588,16 +589,22 @@ footer p{
 }
 footer h5{
     text-align: center;
-    color: #DEEEEB;
-    box-shadow:#7A7B1B;
+    color:#384B41;
+    
     padding-right: 50px;
     padding-left: 10px;
-    text-shadow: 1px 1px 1px black;
+    
 
     
     
 }
-
+footer h5 span{
+    
+    color:#1a2a21;
+    font-size: 1.3rem;
+    
+    
+}
 .centro {
     width: 85%;
     margin-left: auto;
@@ -634,7 +641,7 @@ video {
     margin: auto;
     display: block;
     border-radius: 10px ;
-    box-shadow: -5px 5px 5px 2px #7A7B1B;
+    box-shadow: -5px 5px 5px 4px #24241f;
     
     
     
