@@ -152,22 +152,24 @@ section {
    
 }
 .btn-box{
-    position: relative;
+    position:relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     width: 34rem;
-    height: 5rem;
+    height: 4.4rem;
+    
 }
 
 .btn-box .btn {
-    position: relative;
+    position: absolute;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     width: 15rem;
     height: 100%;
-    background: var(--main-color);
-    border: .2rem solid var(--main-color);
+    background:#62b3a8;
+    border: .2rem solid #62b3a8;
     border-radius: .95rem;
     font-size: 1.6rem;
     font-weight: 600;
@@ -176,23 +178,29 @@ section {
     z-index: 1;
     overflow: hidden;
     transition: .5s;
+    box-shadow: 2px 2px 3px #62b3a8;
+    
 }
 
 .btn-box .btn:hover{
     color: var(--main-color);
+    
 }
 
 .btn-box .btn:nth-child(2) {
     background: transparent;
     background: var(--main-color);
+    
 }
 
 .btn-box .btn:nth-child(2):hover{
     color: var(--bg-color);
+    
 }
 
 .btn-box .btn:nth-child(2)::before {
     background: var(--main-color);
+   
 }
 
 .btn-box .btn::before {
@@ -205,15 +213,17 @@ section {
     background: var(--bg-color);
     z-index: -1;
     transition: .5s;
+    
 }
 
 .btn-box .btn:hover::before{
     width: 100%;
+    
 }
 
 .inicio-social{
     position: absolute;
-    bottom: -11.5rem;
+    bottom: -11rem;
     width: 170px;
     display: flex;
     justify-content: space-between;
@@ -379,10 +389,14 @@ span {
 .btn-box.btns{
     display: inline-block;
     width: 15rem;
+    
+    
+    
 }
 
 .btn-box.btns a::before {
     background: var(--second-bg-color);
+    
 }
 
 .educacion {
@@ -424,6 +438,7 @@ span {
     background-color: #09AD97;
     border-radius: 5px;
     text-align: center;
+    box-shadow: -2px 2px 3px #62b3a8;
  }   
 
  .educacion .heading{
@@ -614,6 +629,7 @@ footer h5 span{
 }
 img{
     transition: all 0.5s linear;
+    
     
     
     
